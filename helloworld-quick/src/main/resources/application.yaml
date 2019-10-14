@@ -1,0 +1,29 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    active: product
+---
+person:
+  lastName: ${random.uuid}
+  age: ${random.int}
+  boss: false
+  birthday: 2017/12/10
+  map: {k1: v1, k2: v2}
+  list:
+    - lisi
+    - zhang
+    - feng
+  dog:
+    name: ${person.hello:hello}_dog
+    age: 2
+---
+server:
+  port: 8091
+spring:
+  profiles: dev
+---
+server:
+  port: 8092
+spring:
+  profiles: product
