@@ -1,0 +1,21 @@
+2019-10-15 00:52:38.587  INFO 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : Starting SpringbootLoggingApplicationTests on fangpc with PID 15268 (started by fangpc in C:\Users\fangpc\Desktop\SpringBoot-Bilibili\springboot-logging)
+2019-10-15 00:52:38.588 DEBUG 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 00:52:38.589  INFO 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2019-10-15 00:52:41.420  INFO 15268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 00:52:42.025  INFO 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : Started SpringbootLoggingApplicationTests in 4.153 seconds (JVM running for 5.823)
+2019-10-15 00:52:42.333 TRACE 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : trace logger
+2019-10-15 00:52:42.334 DEBUG 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : debug logger
+2019-10-15 00:52:42.334  INFO 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : info logger
+2019-10-15 00:52:42.334  WARN 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : warn logger
+2019-10-15 00:52:42.335 ERROR 15268 --- [main] c.f.s.SpringbootLoggingApplicationTests  : error logger
+2019-10-15 00:52:42.352  INFO 15268 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 ==== [main] ==== INFO  ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -Starting SpringbootLoggingApplicationTests on fangpc with PID 6868 (started by fangpc in C:\Users\fangpc\Desktop\SpringBoot-Bilibili\springboot-logging)
+2019-10-15 ==== [main] ==== DEBUG ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 ==== [main] ==== INFO  ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -No active profile set, falling back to default profiles: default
+2019-10-15 ==== [main] ==== INFO  ==== o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 ==== [main] ==== INFO  ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -Started SpringbootLoggingApplicationTests in 3.737 seconds (JVM running for 4.993)
+2019-10-15 ==== [main] ==== DEBUG ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -debug logger
+2019-10-15 ==== [main] ==== INFO  ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -info logger
+2019-10-15 ==== [main] ==== WARN  ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -warn logger
+2019-10-15 ==== [main] ==== ERROR ==== c.f.springboot.SpringbootLoggingApplicationTests ==== -error logger
+2019-10-15 ==== [Thread-2] ==== INFO  ==== o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== -Shutting down ExecutorService 'applicationTaskExecutor'
