@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
  * @date 2019-10-14 15:19
  */
 
-//@Service("helloService")
+@Service("helloService")
 public class HelloService {
 }
