@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: fang2831016
+    url: jdbc:mysql://cdb-1yzvsfly.bj.tencentcdb.com:10006/springboot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#    schema:
+#      - classpath:sql/account.sql
+    initialization-mode: always
+mybatis:
+  check-config-location: true
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
